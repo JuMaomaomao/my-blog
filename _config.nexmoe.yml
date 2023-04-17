@@ -102,7 +102,7 @@ widgets:
     - name: recent_posts
       enable: true
     - name: link #settings: widgetLink
-      enable: true
+      enable: false
       options: 
         widgetLink: #链接组件
             - title: 小舒同学
