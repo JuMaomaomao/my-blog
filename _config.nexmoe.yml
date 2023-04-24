@@ -1,4 +1,4 @@
-avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png # 网站 Logo
+avatar: https://cdn.jsdelivr.net/gh/JuMaomaomao/images@latest/avatar.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
     path: https://cdn.jsdelivr.net/gh/JuMaomaomao/images@1.0.0/Earth%20Horizon.jpg
     width: 5120
@@ -15,7 +15,7 @@ function: # 功能开关，可选值（true,false）
 imageCDN: # 图片 CDN 功能
   enable: false # 开启该功能  
   origin: /../../images/ # 图片原始目录
-  to: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/ # 图片 CDN 域名
+  to: https://cdn.jsdelivr.net/gh/JuMaomaomao/images@latest/ # 图片 CDN 域名
 
 # 自定义样式，启用后可在站点的source文件夹下新建custom.css自定义站点样式
 customStyles:
