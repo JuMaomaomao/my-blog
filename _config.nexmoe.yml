@@ -19,7 +19,7 @@ imageCDN: # 图片 CDN 功能
 
 # 自定义样式，启用后可在站点的source文件夹下新建custom.css自定义站点样式
 customStyles:
-  - custom.css
+  # - custom.css
   
 # 附加图标库 使用说明：https://docs.nexmoe.com/config/icon
 iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
@@ -39,53 +39,12 @@ menu:
         - icon-info-circle
 
 widgets:
-    - name: social
-      enable: false
-      options: 
-        social:
-            QQ群:
-                - https://jq.qq.com/?_wv=1027&k=5CfKHun
-                - icon-QQ
-                - rgb(249, 174, 8)
-                - rgba(249, 174, 8, .1)
-            哔哩哔哩:
-                - https://space.bilibili.com/20238211
-                - icon-bilibili
-                - rgb(231, 106, 141)
-                - rgba(231, 106, 141, .1)
-            GitHub:
-                - https://github.com/nexmoe/
-                - icon-github
-                - rgb(25, 23, 23)
-                - rgba(25, 23, 23, .1)
-            知乎:
-                - https://www.zhihu.com/people/nexmoe
-                - icon-zhihu
-                - rgb(30, 136, 229)
-                - rgba(30, 136, 229, .1)
-            Twitter:
-                - https://twitter.com/nexmoe
-                - icon-twitter
-                - rgb(59, 151, 239)
-                - rgba(59, 151, 239, .1)
-            RSS:
-                - https://nexmoe.com/atom.xml
-                - icon-rss
-                - rgb(247, 132, 34)
-                - rgba(247, 132, 34, .1)
     - name: category
       enable: true
     - name: tagcloud
       enable: true
       options: 
         maxTagcloud: 17  # 标签云组件显示的标签数量，0 表示不限制
-    - name: hitokoto # 一言 widget
-      enable: false
-      options: 
-        widgetHitokoto: # 一言组件
-            loading_placeholder: '🚀 获取中...' # 正在一言时的占位符
-            loading_error_placeholder: '🐞 获取失败...' # 加载一言失败时的占位符
-            category: # 一言句子类型（可选），不配置的话随机获取，详见 https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     - name: archive #settings: widgetAchive
       enable: true
       options:
@@ -94,16 +53,6 @@ widgets:
             show_count: true  #是否展示数量
     - name: recent_posts
       enable: true
-    - name: link #settings: widgetLink
-      enable: false
-      options: 
-        widgetLink: #链接组件
-            - title: 小舒同学
-              img: https://xsm.nexmoe.com/images/Infinite/Snipaste_2022-05-18_20-46-50.png
-              link : https://xiaoshu.app/
-            - title: 折影轻梦
-              img: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
-              link : https://nexmoe.com/
 
 copyTip: "著作权归作者所有。\n商业转载请联系作者获得授权，非商业转载请注明出处。\n来源：%url" # 自定义复制版权文案,使用 %url 代替当前页面URL, 修改为false禁用
 
