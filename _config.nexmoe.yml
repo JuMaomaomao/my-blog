@@ -1,6 +1,6 @@
 avatar: https://cdn.jsdelivr.net/gh/JuMaomaomao/images@latest/avatar.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
-    path: https://cdn.jsdelivr.net/gh/JuMaomaomao/images@1.0.0/Earth%20Horizon.jpg
+    path: https://cdn.jsdelivr.net/gh/JuMaomaomao/images@latest/Earth%20Horizon.jpg
     width: 5120
     height: 2880
 favicon:
